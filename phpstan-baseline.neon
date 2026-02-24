@@ -1,0 +1,6 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Property Nytris\\\\Intercooler\\\\Tests\\\\Unit\\\\Snapshot\\\\Dump\\\\ObjectWithPrivateProperty\\:\\:\\$secret is never read, only written\\.$#"
+			count: 1
+			path: tests/Unit/Snapshot/Dump/ValueDumperTest.php

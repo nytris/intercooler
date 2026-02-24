@@ -1,0 +1,12 @@
+includes:
+    - vendor/phpstan/phpstan-mockery/extension.neon
+    - phpstan-baseline.neon
+
+parameters:
+    level: 6
+    paths:
+        - src/
+        - tests/
+    excludePaths:
+        - tests/Functional/MultiProcessSnapshot/Fixtures/*
+    tmpDir: var/phpstan/
